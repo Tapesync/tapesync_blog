@@ -12,6 +12,6 @@ server {
 	server_name tapesync.com;
 
     location = / {
-        return 301 http://tapesync.com/signup.html;
+        return 301 http://tapesync.com/signup;
     }
 }
