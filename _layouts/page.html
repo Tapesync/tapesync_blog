@@ -3,23 +3,18 @@ layout: default
 post_class: post-template page-template
 ---
 
-<nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-</nav>
-
+{% if page.slug == 'signup' %}
+    <nav class="main-nav clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Blog</a>
+    </nav>
+{% else %}
+    <nav class="main-nav clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+    </nav>
+{%endif%}
 
 <main class="content" role="main">
     <article class="post">
-        <!-- <header class="post-header">
-            <a id="blog-logo" href="{{site.baseurl}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%}
-            </a>
-        </header> -->
-
         {% if page.image %}
         <div {% if page.image_class %} class="{{page.image_class}}" {% endif %} >
         <div>

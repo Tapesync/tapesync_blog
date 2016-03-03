@@ -3,6 +3,7 @@ layout: page
 title: Get on the invite list
 image: /assets/images/tapesync_profile.jpg
 image_class: small_and_to_the_side
+slug: signup
 ---
 
 Tapesync is the premier call recording solution for documentary radio producers. It'll launch in late 2016.
