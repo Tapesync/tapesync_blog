@@ -229,7 +229,14 @@ div.small_and_to_the_side {
       width: 100%; }
 
 section.post-content img.post_image {
-  max-width: 100%; }
+  max-width: 100%;
+  margin: 0; }
+section.post-content img.post_image_small {
+  max-width: 50%;
+  margin: 0; }
+section.post-content img.post_image_xsmall {
+  max-width: 25%;
+  margin: 0; }
 
 h2.page-description a {
   color: white;

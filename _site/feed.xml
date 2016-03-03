@@ -5,34 +5,45 @@
     <description>Call recording tool for radio folks</description>
     <link>http://tapesync.com/feed.rss//</link>
     <atom:link href="http://tapesync.com/feed.rss//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 15:12:02 +0100</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 15:12:02 +0100</lastBuildDate>
+    <pubDate>Thu, 03 Mar 2016 20:36:26 +0100</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 20:36:26 +0100</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Introducing the Tapesync blog</title>
+        <title>Proof of concept</title>
         <description>&lt;p&gt;It’s been almost a year since I decided to build a new call recording tool 
-for documentary radio journalists. For the first ten months or so progress was slow. 
-I’ve found myself caught up in consulting work and weeks would go by when I
-didn’t look at the project. But during the last two months I’ve been able to
-carve out more time and things are starting
-to happen.&lt;/p&gt;
+for documentary radio journalists. For the first ten months or so progress was
+slow. I got stuck with consulting work and weeks would go by when I didn’t
+look at Tapesync. But during the last two months I’ve been able to
+carve out more time and things are beginning to happen.&lt;/p&gt;
 
-&lt;p&gt;I’ve been employing the old jedi mind trick of dedicating at least an hour a
+&lt;p&gt;I’ve been employing an old jedi mind trick of dedicating at least an hour a
 day towards my project. That has kept Tapesync at the top of my mind and on most
-days the hour has extended to the entire day. I’m using a habit shaping app 
-called Rewire to help me stay on track.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2016/rewire.png&quot; alt=&quot;&quot; class=&quot;post_image&quot; /&gt;&lt;/p&gt;
+days the hour has been stretched out, often to the entire day.&lt;/p&gt;
 
 &lt;p&gt;Tapesync will have a desktop and a mobile client and I’ve been making headway
-with the desktop client. I’m now at a point where I can place and record calls
-from the desktop client to a PSTN endpoint (aka a “phone”). I have the basic 
-telephony server set up.&lt;/p&gt;
+with the desktop client. I’m now at a point where I can place calls
+from the desktop client to a PSTN endpoint (aka a “phone”), record the call at
+the local end in 44kHz and capture the remote end of the conversation at the 
+server in 8kHz.&lt;/p&gt;
+
+&lt;p&gt;The technology choice for the desktop client fell on
+&lt;a href=&quot;http://electron.atom.io/&quot;&gt;Electron&lt;/a&gt; and so far that’s been a pleasant 
+experience. For the telephony server I went with 
+&lt;a href=&quot;https://freeswitch.org/&quot;&gt;FreeSwitch&lt;/a&gt; and I’ll probably have to put 
+&lt;a href=&quot;https://www.kamailio.org/w/&quot;&gt;Kamailio&lt;/a&gt; in front of that. The telephony stuff is
+just plain hard. There’s no way around that. But when it works it’s
+exhilarating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2016/electro.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Me programming telephony servers&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, tons of stuff remains to be coded, problems solved, technologies
+learned. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Mar 2016 13:00:00 +0100</pubDate>
-        <link>http://tapesync.com/feed.rss//2016/introducing-the-tapesync-blog-index/</link>
-        <guid isPermaLink="true">http://tapesync.com/feed.rss//2016/introducing-the-tapesync-blog-index/</guid>
+        <link>http://tapesync.com/feed.rss//2016/proof-of-concept/</link>
+        <guid isPermaLink="true">http://tapesync.com/feed.rss//2016/proof-of-concept/</guid>
         
         
       </item>
