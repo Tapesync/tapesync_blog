@@ -7,12 +7,14 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://beta.tapesync.com'
+domain_name: 'tapesync.com'
 google_analytics: 'UA-2026673-22'
 gems: [jekyll-paginate]
 home: 'http://tapesync.com'
 invite_url: /signup
 invite_payoff: "Get on the invite list"
+
+permalink: /:year/:title/
 
 # Details for the RSS feed generator
 url: 'http://tapesync.com/feed.rss'
