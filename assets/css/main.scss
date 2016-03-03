@@ -5,10 +5,58 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+display:inline;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
+@import "syntax";
+
+
+form {
+    input {
+        border-radius: 4px;
+        box-shadow: none;
+        height: 2em;
+        border: 1px solid #d1d1d1;
+        font-family: "Open Sans", sans-serif;
+        padding: 4px;
+        min-width: 70%;
+        margin-bottom: 1em;
+    }
+
+    input[type=submit] {
+        color: white;
+        height: 3em;
+        background-color: #FA743E;
+        font-weight: bold;
+        display: block;
+        min-width: 30%;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    label {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        display: block;
+    }
+}
+
+div.small_and_to_the_side {
+    display: flex;
+    justify-content: flex-end;
+    div {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+h2.page-description {
+    a {
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+    }
+}

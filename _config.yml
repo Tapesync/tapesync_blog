@@ -1,16 +1,19 @@
 name: "Tapesync - the blog"
-description: "How I'm building the premier call recording tool for radio journalists"
-meta_description: "How I'm building the premier call recording tool for radio journalists"
+description: "How I'm building the premier call recording tool for radio folks"
+meta_description: "How I'm building the premier call recording tool for radio folks"
 
 markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /blog
-domain_name: 'http://tapesync.com'
-google_analytics: 'UA-XXXXXXXX-X'
+baseurl: /
+domain_name: 'http://beta.tapesync.com'
+google_analytics: 'UA-2026673-22'
 gems: [jekyll-paginate]
+home: 'http://tapesync.com'
+invite_url: /signup.html
+invite_payoff: "Get on the invite list"
 
 # Details for the RSS feed generator
 url: 'http://tapesync.com/feed.rss'
-author: 'Oivvio Polite'
+author: 'Tapesync'
