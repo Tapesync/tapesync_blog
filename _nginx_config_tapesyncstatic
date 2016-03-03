@@ -1,0 +1,21 @@
+server {
+    listen       80;
+    server_name  www.tapesync.com;
+    return       301 http://tapesync.com$request_uri;
+}
+
+server {
+	root /home/oivvio/sites/tapesync_blog/_site;
+	index index.html index.htm;
+
+	# Make site accessible from http://localhost/
+	server_name tapesync.com;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to index.html
+		try_files $uri $uri/ /index.html;
+		# Uncomment to enable naxsi on this location
+		# include /etc/nginx/naxsi.rules
+	}
+}
