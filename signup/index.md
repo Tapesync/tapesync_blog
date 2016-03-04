@@ -8,7 +8,7 @@ slug: signup
 
 Tapesync is the premier call recording solution for documentary radio producers. It'll launch in late 2016.
 
-Subscribe to the mailing list and we'll ping when we start the beta an
+Subscribe to the mailing list and we'll ping when we start the beta and
 whenever there's important news.
 
 {% include mailchimp_signup_form.html %}
