@@ -1,6 +1,6 @@
 name: "Tapesync"
-description: "Call recording tool for radio folks"
-meta_description: "Call recording tool for radio folks"
+description: "Call recording for radio folks"
+meta_description: "Call recording for radio folks"
 
 markdown: kramdown
 highlighter: pygments
