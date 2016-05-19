@@ -11,7 +11,7 @@ server {
 	# Make site accessible from http://localhost/
 	server_name tapesync.com;
 
-    location = / {
-        return 301 http://tapesync.com/signup;
-    }
+    # location = / {
+    #    return 301 http://tapesync.com/signup;
+    # }
 }
