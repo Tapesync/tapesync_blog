@@ -18,6 +18,9 @@
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
 
+    {% if page.slug == 'thankyou' %}
+        {% include fb_tracking_pixel.html %}
+    {% endif %}
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
