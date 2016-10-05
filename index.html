@@ -24,6 +24,26 @@ about: 'about.html'
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+
+    {% if page.fb_tracking_pixel  %}
+        <!-- Facebook Conversion Code for Signed up for email newsletter -->
+        <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', '6010465028217', {'value':'0.00','currency':'SEK'}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6010465028217&amp;cd[value]=0.00&amp;cd[currency]=SEK&amp;noscript=1" /></noscript>
+    {% endif %}
+
 </header>
 
 
