@@ -1,3 +1,48 @@
+# Add a post
+
+## Build
+
+	jekyll build
+	
+## Build with drafts
+
+	jekyll build --drafts
+	
+## Local server at http://localhost:4000
+
+	jekyll serve
+	
+## Build and push to live
+
+First check that there everything is commited
+
+	./push.sh
+
+## Directory stucture
+
+	_post // published posts
+	
+	_drafts // will be published posts
+	
+	_future // ideas for future posts
+
+
+## posts yaml frontmatter
+
+	---
+	layout: post                  # Which layout to use
+	title: Proof of concept       # A title
+	date:   2016-03-02  12:00:00  # publication date
+	slug: proof-of-concept        # a url slug, set for nicer urls
+	published: false              # defaults to true
+	---
+
+
+
+
+
+# INFO FROM Casper Theme author
+
 # Kasper
 
 This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 

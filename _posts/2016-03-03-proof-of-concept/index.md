@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proof of concept 
+title: Proof of concept
 date:   2016-03-02  12:00:00
 slug: proof-of-concept
 ---

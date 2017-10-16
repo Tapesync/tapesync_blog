@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who's behind Tapesync?
+title: Who's behind TapeSync?
 ---
 
 ![](/assets/images/oivvio_scaled.jpg)
@@ -14,7 +14,7 @@ documentary radio. It's clear that there's a lack of tools built for
 documentary radio journalism. This goes for audio editing,  where we work mostly
 with tools made for musicians, as well as remote recording, where
 existing solutions cater to people doing live news or studio discussions. Now,
-with Tapesync, I'm doing something about that. I'm building a call recording
+with TapeSync, I'm doing something about that. I'm building a call recording
 solution catering specifically to the documentary radio journalist. It is going
 to be awesome.
 

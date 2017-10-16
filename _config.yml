@@ -1,4 +1,4 @@
-name: "Tapesync"
+name: "TapeSync"
 description: "Call recording for radio folks"
 meta_description: "Call recording for radio folks"
 
@@ -21,4 +21,4 @@ permalink: /:year/:slug/
 
 # Details for the RSS feed generator
 url: 'http://tapesync.com/feed.rss'
-author: 'Tapesync'
+author: 'TapeSync'
