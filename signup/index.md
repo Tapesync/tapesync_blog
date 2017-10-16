@@ -8,7 +8,7 @@ slug: signup
 
 TapeSync is the premier call recording solution for documentary radio
 producers. It features recording of regular phone calls as well as
-browsers based calls (thanks to the WebRTC standard) that offers
+browser based calls (thanks to the WebRTC standard) that offers
 higher audio quality. Browser based calling obviates the need for the
 interviewee to download any special call recording app.
 
