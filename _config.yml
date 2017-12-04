@@ -1,6 +1,7 @@
 name: "TapeSync"
-description: "Call recording for radio folks"
-meta_description: "Call recording for radio folks"
+title: "TapeSync"
+description: "Call recording for radio folks and a modern take on the traditional tape sync"
+meta_description: "Call recording for radio folks and a modern take on the traditional tape sync"
 
 markdown: kramdown
 highlighter: pygments
