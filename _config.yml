@@ -12,7 +12,6 @@ baseurl: /
 blogindex: /index.html
 
 domain_name: 'tapesync.com'
-google_analytics: 'UA-2026673-22'
 gems: [jekyll-paginate, jekyll-sitemap]
 home: 'http://tapesync.com'
 invite_url: /signup
