@@ -1,5 +1,5 @@
-name: "TapeSync"
-title: "TapeSync"
+name: "Tapesync"
+title: "Tapesync"
 description: "Call recording for radio folks"
 meta_description: "Call recording for radio folks and a modern take on the traditional tape sync"
 
@@ -21,4 +21,4 @@ permalink: /:year/:slug/
 
 # Details for the RSS feed generator
 url: 'http://tapesync.com/feed.rss'
-author: 'TapeSync'
+author: 'Tapesync'
