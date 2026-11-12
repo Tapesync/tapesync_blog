@@ -4,11 +4,9 @@ title: Tapesync Terms of Service
 slug: tos
 ---
 
-# Tapesync Terms of Service
-
-
-**Jack & Julia Liberation Technology AB**), org.nr 559411-9165, Odengatan 13,
-114 24 Stockholm, Sweden ("Tapesync", "we", "us"). You can reach us at
+These terms are an agreement between you and **Tapesync** (a trading name of
+**Jack & Julia Liberation Technology AB**, org.nr 559411-9165, Odengatan 13,
+114 24 Stockholm, Sweden, "Tapesync", "we", "us"). You can reach us at
 info@tapesync.com.
 
 They cover the Tapesync web app, the Tapesync mobile apps, the phone-in

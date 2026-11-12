@@ -4,9 +4,6 @@ title: Tapesync Privacy Policy
 slug: privacy
 ---
 
-# Tapesync Privacy Policy
-
-
 This policy explains how **Tapesync** (a trading name of **Jack & Julia
 Liberation Technology AB**, org.nr 559411-9165, Odengatan 13, 114 24
 Stockholm, Sweden, "we", "us") handles personal data about the people who
