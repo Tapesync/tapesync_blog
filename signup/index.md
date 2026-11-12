@@ -1,23 +1,27 @@
 ---
 layout: page
-title: What is TapeSync?
+title: What is Tapesync?
 image: /assets/images/tapesync_profile.jpg
 image_class: small_and_to_the_side
 slug: signup
 ---
 
-TapeSync is the premier call recording solution for documentary radio
-producers. It features recording of regular phone calls as well as
-browser based calls (thanks to the WebRTC standard) that offers
-higher audio quality. Browser based calling obviates the need for the
-interviewee to download any special call recording app.
+Tapesync is a remote recording tool for radio journalists.
+Podcast tools assume both sides of the conversation have a good
+microphone. When you're interviewing for radio, the other side almost
+never does. What nearly everyone does have is a laptop and a phone, so
+Tapesync is built to get the best possible audio out of exactly that.
+
+Your interviewee joins a browser-based video call and uses their cellphone as a
+microphone to capture high-resolution audio. Each device records uncompressed
+audio locally and uploads it as you talk. You get time-aligned WAV files for
+every device, plus a transcript.
 
 ## How do I get it?
 
-The TapeSync alpha is currently being tested by a handful of users and
-the beta will launch in early 2018. Subscribe to the mailing list and
-I'll ping you when the betas start and whenever there's important
-news.
+Tapesync is currently in private beta. Subscribe to the mailing list
+and I'll let you know when more spots open up and whenever there's
+important news.
 
 {% include mailchimp_signup_form.html %}
 
