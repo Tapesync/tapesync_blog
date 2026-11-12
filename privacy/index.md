@@ -111,9 +111,7 @@ telephony, are listed in Annex B of our Terms of Service.
 
 Everything in this policy stays in the EU except email. Fastmail is based in
 Australia and stores data in the USA. Those transfers are covered by the
-European Commission's Standard Contractual Clauses. [TODO: confirm in
-Fastmail's DPA whether it relies on SCCs, the EU–US Data Privacy Framework or
-both.] You can ask us for a copy of the safeguards.
+European Commission's Standard Contractual Clauses. You can ask us for a copy of the safeguards.
 
 ## 8. How long we keep it
 
@@ -128,8 +126,7 @@ We don't keep anything after an account is closed.
 
 Data is encrypted in transit, and access to production systems is limited to
 the people who need it to run the Service. Passwords are stored only as
-hashes. [TODO: add encryption at rest when confirmed, as in Annex A of the
-Terms of Service.]
+hashes.
 
 ## 10. Your rights
 
